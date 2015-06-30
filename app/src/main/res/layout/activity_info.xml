@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     tools:context="com.gingerwolfmc.gingerwolfmc.infoActivity"
-    android:background="@mipmap/mainbg">
+    android:background="@mipmap/mainbg"
+    android:id="@+id/l">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -45,5 +46,14 @@
                 android:contentDescription="Settings" />
         </LinearLayout>
     </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/serverstatsbg"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"></LinearLayout>
 
 </RelativeLayout>
