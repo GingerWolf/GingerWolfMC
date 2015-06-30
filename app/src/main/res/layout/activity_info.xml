@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.gingerwolfmc.gingerwolfmc.infoActivity"
+    android:background="@mipmap/mainbg">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/headerbg"
+        android:id="@+id/linearLayout4"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/headerlogo"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/header_txt"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/settings"
+            android:layout_marginLeft="26dp"
+            android:layout_gravity="center" >
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/setbtn"
+                android:layout_gravity="center"
+                android:background="@mipmap/settings"
+                android:contentDescription="Settings" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
